@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+    
+  
+}
+
+/* navbar */
+#navbar{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+ 
+}
+#navbar .nav-link{
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+#navbar .nav-link:hover{
+    color: black;
+    border-radius: 5px;
+}
+/* navbar */
+
+li {
+    list-style: none;
+}
+
+
+.card-container {
+    margin: 50px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    color: black;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    
+    
+
+}
+
+.round {
+    border: 1px solid darkmagenta;
+    border-radius: 50%;
+    padding: 7px;
+    
+
+}
+.name-container {
+    margin: 10px 0;
+}
+h2{
+    color: black;
+    margin-left: 10px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    justify-content: end;
+}

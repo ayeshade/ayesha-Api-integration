@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  background-color: lightblue;
+    
+   
+}
+
+/* navbar */
+#navbar{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    background-color: black;
+}
+#navbar .nav-link{
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.5s ease;
+
+}
+#navbar .nav-link:hover{
+    color: black;
+    border-radius: 5px;
+}
+/* navbar */
+@media screen and (max-width:799px){
+    .home-section{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:550px){
+    .home-section{
+        height: 100vh;
+    }
+}
+h2{
+    color: black;
+}
+span{
+    margin-left: 30px;
+}
+.services{
+    margin-top: 50px;
+   
+  
+}
+.services .card-body i{
+    font-size: 50px;
+}
+
